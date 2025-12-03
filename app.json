@@ -2,7 +2,9 @@
   "expo": {
     "name": "Money Manager",
     "slug": "MoneyManager",
-    "version": "1.0.0",
+    
+    "version": "2.0.0",  // <--- CHANGE THIS TO 2.0.0
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -11,13 +13,32 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourname.moneymanager",
+      "buildNumber": "2" // <--- Increment this for iOS
+    },
     "android": {
-      
-      "package": "com.githubusername.moneymanager"
+      "package": "com.yourname.moneymanager",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "versionCode": 2, // <--- CHANGE THIS (Must be an integer: 1, 2, 3...)
+      "permissions": [
+        "NOTIFICATIONS",
+        "VIBRATE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "plugins": [
+      "expo-font"
+    ],
     "extra": {
       "eas": {
         "projectId": "cae7354d-04ef-40bf-891f-3faef690f8a9"
