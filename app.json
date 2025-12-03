@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Money Manager",
+    "slug": "MoneyManager",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      
+      "package": "com.githubusername.moneymanager"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cae7354d-04ef-40bf-891f-3faef690f8a9"
+      }
+    }
+  }
+}
