@@ -75,7 +75,7 @@ Follow these steps to run the app on your local machine.
 ### Steps
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/MoneyManager.git](https://github.com/YOUR_USERNAME/MoneyManager.git)
+    git clone [https://github.com/hasbulkhan45/MoneyManager.git](https://github.com/hasbulkhan45/MoneyManager.git)
     cd MoneyManager
     ```
 
